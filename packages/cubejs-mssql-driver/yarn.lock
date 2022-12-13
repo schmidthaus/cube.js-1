@@ -2,14 +2,13 @@
 # yarn lockfile v1
 
 
-"@cubejs-backend/query-orchestrator@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.7.0.tgz#129e51aed151780acc145376090c250a4cf9b742"
-  integrity sha512-jDrctw2k49i9AjsWUkvK15H2n8u0kqr9T+rjAqbm865xlqCPo4jbXLsqBZspiBXPZCvxKQEc1fef/h9mDAqKyA==
+"@cubejs-backend/query-orchestrator@^0.10.16":
+  version "0.10.58"
+  resolved "https://registry.yarnpkg.com/@cubejs-backend/query-orchestrator/-/query-orchestrator-0.10.58.tgz#868a8beb933d3a1ade4d63cc0093c104610756a5"
+  integrity sha512-ePcXWinoCB23/MnlVBEMNB0rdJ1yFvGOwIHo0ruHtX07c5sMYrrEecL97Vz3vdoFd125eE8/CsppnecVAKdPKw==
   dependencies:
     ramda "^0.24.1"
     redis "^2.8.0"
-    util-promisifyall "^1.0.4"
 
 "@types/node@^8.0.47":
   version "8.10.45"
@@ -380,9 +379,9 @@ punycode@^2.1.0:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 ramda@^0.24.1:
   version "0.24.1"
@@ -551,11 +550,6 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
-
-util-promisifyall@^1.0.4:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/util-promisifyall/-/util-promisifyall-1.0.6.tgz#03439a5a76461e1f71f76954d945cffc8bd6aad8"
-  integrity sha512-l+o62sbaqStC1xt7oEhlafC4jWBgkOjBXvlPwxkvOYmNqpY8dNXuKdOa+VHjkYz2Fw98e0HvJtNKUg0+6hfP2w==
 
 uuid@^3.1.0, uuid@^3.3.2:
   version "3.3.2"
